@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Simple Youtube Search </title>
+	 <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+	<link rel = "stylesheet" href ="youtubeapi.css"> 
+
+</head>
+<body>
+
+<div id ="top-part">
+<div>
+ 
+
+
+<h1> Simple Youtube Search </h1>
+<form id ="form-container">
+<label for ="search"> Search: </label>
+<input type = "text" id = "search" value = "" placeholder="Enter here...">
+<input type ="submit" value = "Submit" id ="Submit" class ="btn">
+ <input type="button" id ="Refresh" class ="btn" value= "Refresh" onClick="window.location.reload()">
+</form>
+</div>
+
+<div id ="wiki"> 
+<h2 id = "wikihead"> Wikipedia links </h2>
+
+<ul id ="wikilinks">
+
+</ul>
+
+
+</div>
+</div>
+
+<div id = "youtubepart"> 
+<h2 id ="youtubehead"> Youtube Videos </h2> 
+<ul id ="youtubeVidLinks">
+</ul>
+ </div>
+
+
+ <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+ <script src ="youtubeapi.js"> </script> 
+</body>
+</html>
