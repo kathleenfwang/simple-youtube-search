@@ -1,4 +1,4 @@
-# simple-youtube-search
+# Youtube Searcher
 
 Allows you to quickly search Youtube! 
 
