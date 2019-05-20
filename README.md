@@ -1,4 +1,4 @@
-# Youtube Searcher
+# Minimalistic Youtube Searcher
 
 Allows you to quickly search Youtube! 
 - Returns relevant Youtube and Wikipedia links for a user-entered search query. 
